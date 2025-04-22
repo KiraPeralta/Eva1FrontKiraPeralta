@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0074D9;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #003b75;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+    background: url('https://via.placeholder.com/1200x400') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+section {
+    padding: 20px;
+}
+
+section img {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px 0;
+}
+#intro {
+    background-color: #ffffff; 
+    color: #222;
+}
+
+#what {
+    background-color: #e6f2ff; 
+}
+
+#importance {
+    background-color: #fef6e4;
+}
+
+#challenges {
+    background-color: #ffe5e5; 
+}
+
+#tips {
+    background-color: #e8ffe8; 
+}
+
+#boletin {
+    background-color: #fff9c4; 
+}
+
+
+.tips-grid div {
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tips-grid div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.726);
+}
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+h2{
+    color: #000000;
+}
+p{
+    color: #000;
+}
+
+p2{
+    color: #ddd;
+}
+section {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease-out forwards;
+    animation-delay: 0.2s;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.banner {
+    background-color: #003b75;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+.btn {
+    background-color: #0074D9;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 25px;
+    font-size: 2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+}
+
+
