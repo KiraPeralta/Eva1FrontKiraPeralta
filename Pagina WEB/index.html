@@ -85,6 +85,22 @@
             <a href="#contact" class="boton-suscripcion">💡 Quiero Suscribirme</a>
         </center>
     </section>
+        <form action="TU_SERVICIO_DE_PAGO_O_BACKEND" method="POST" class="formulario-boletin">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+      
+        <label for="correo">Correo electrónico:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+      
+        <label for="pago">Método de pago:</label><br>
+        <select id="pago" name="pago" required>
+          <option value="">Selecciona...</option>
+          <option value="paypal">PayPal</option>
+          <option value="tarjeta">Tarjeta Visa</option>
+        </select><br><br>
+      
+        <button type="submit">Suscribirme por $3 USD</button>
+      </form>
     
     <footer id="contact">
         <h2>📬 Contáctanos y fortalece tu seguridad digital</h2>
